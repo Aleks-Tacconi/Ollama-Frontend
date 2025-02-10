@@ -2,10 +2,12 @@
 
 ![](assets/showcase.png)
 
---- 
+---
 
 # Project Setup and Usage Guide
+
 ## Prerequisites
+
 ### 1. Ollama
 
 Ollama is required for running AI models. To get started, follow these steps:
@@ -23,11 +25,13 @@ Ensure you have Python installed, then set up a virtual environment to manage de
 
 - Create a Virtual Environment:
 
+```bash
 python -m venv venv
+```
 
 - Activate the Virtual Environment:
 
-    - On Linux/MacOS:
+  - On Linux/MacOS:
 
 ```bash
 source venv/bin/activate
@@ -46,6 +50,7 @@ pip install -r requirements.txt
 ```
 
 ## Running the Application
+
 ### 1. Start Ollama Server
 
 To start the Ollama server, run the following command:
@@ -61,9 +66,9 @@ To launch the application, use the following command, specifying the AI model:
 ```bash
 streamlit run main.py --ai-model <model-name>
 ```
+
 For example:
 
 ```bash
 streamlit run main.py --ai-model deepseek-r1
 ```
-
